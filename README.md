@@ -17,4 +17,7 @@ In our case this model is **Fundamental Matrix**.
 
 <div style="text-align:center"><img src="ransac.png" width="300" height="300"/></div> 
 
+
+
+
 In **NG-RANSAC**,  Each datapoint is assigned a weight, these weights are calculated using the (pretrained) neural net. Instead of choosing the hypothesis randomly (like in RANSAC), **The minimal set in each hypothesis is guided by these weights**, hence the name Neural Guided RANSAC.
