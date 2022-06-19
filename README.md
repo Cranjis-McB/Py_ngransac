@@ -15,4 +15,4 @@ Random Sample Consensus (RANSAC) is an iterative model for estimating a model fr
 
 In our case this model is **Fundamental Matrix**.
 
-![alt text]([http://url/to/img.png](https://www.researchgate.net/profile/Benjamin-Bejar/publication/274678977/figure/fig3/AS:372813367136257@1465897042094/Visual-representation-of-the-functioning-of-RANSAC-Subset-1-and-2-represent-two-RANSAC.png))
+![alt text]([http://url/to/img.png](https://www.researchgate.net/profile/Benjamin-Bejar/publication/274678977/figure/fig3/AS:372813367136257@1465897042094/Visual-representation-of-the-functioning-of-RANSAC-Subset-1-and-2-represent-two-RANSAC.png)
