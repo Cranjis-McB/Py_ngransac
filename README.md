@@ -21,6 +21,6 @@ The working of the RANSAC is depicted in the below figure.
 * Step-2: Model Fitting using Hypothesis
 * Step-3: Inlier/Outlier Selection
 
-<center><img src="ransac.png" width= "300" height= "300" padding-top= "40" padding-bottom= "50"></center>
+<center><img src="ransac.png" width= "300" height= "300" padding-top= "60" padding-bottom= "60"></center>
 
 In **NG-RANSAC**,  Each datapoint is assigned a weight, these weights are calculated using the (pretrained) neural net. Instead of choosing the hypothesis randomly (like in RANSAC), **The minimal set in each hypothesis is guided by these weights**, hence the name Neural Guided RANSAC.
