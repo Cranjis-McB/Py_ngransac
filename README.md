@@ -15,6 +15,6 @@ Random Sample Consensus (RANSAC) is an iterative model for estimating a model fr
 
 In our case this model is **Fundamental Matrix**.
 
-<div style="text-align:center"><img src="ransac.png" width="300" height="300" padding: 25px 25px 25px 20px;/></div> 
+<div style="text-align:center"><img src="ransac.png" width="300" height="300"/></div> 
 
 In **NG-RANSAC**,  Each datapoint is assigned a weight, these weights are calculated using the (pretrained) neural net. Instead of choosing the hypothesis randomly (like in RANSAC), **The minimal set in each hypothesis is guided by these weights**, hence the name Neural Guided RANSAC.
