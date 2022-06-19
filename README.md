@@ -7,7 +7,7 @@ Original Git-Repo Reference: [vislearn/ngransac](https://github.com/vislearn/ngr
 
 **This repo provides the implementation of the NG-RANSAC in Python as compared to the C++ implementation of the original repo.**
 
-## Background:
+## Background
 
 What is [RANSAC](http://www.cs.ait.ac.th/~mdailey/cvreadings/Fischler-RANSAC.pdf)?
 
