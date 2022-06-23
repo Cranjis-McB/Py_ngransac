@@ -11,7 +11,7 @@ Original Git-Repo Reference: [vislearn/ngransac](https://github.com/vislearn/ngr
 
 **What is [RANSAC](http://www.cs.ait.ac.th/~mdailey/cvreadings/Fischler-RANSAC.pdf)?**
 
-Random Sample Consensus (RANSAC) is an iterative model for estimating a model from a dataset that contains outliers. It chooses a group of hypothesis **randomly** where each hypothesis contains the minimal data points to estimate the model, also called minimal set. The model is estimated using each hypothesis, and all the data points are asked to vote for the hypothesis (i.e. count the number of datapoints that lies with epsilon error of the estimated model using the hypothesis). The hypothesis gets the most vote decides the inliers, and these inliers estimates the final model. 
+Random Sample Consensus (RANSAC) is an iterative model for estimating a model from a dataset that contains outliers. It chooses sub-sets of data **randomly**. Each subset contains the minimum number of points (also called Minimal Set) to estimate the model hypothesis. and all the data points are asked to vote for the hypothesis (i.e. count the number of datapoints that lies within epsilon error of the estimated model hypothesis). The model hypothesis gets the most vote decides the inliers, and these inliers estimates the final model. 
 
 In our case this model is **Fundamental Matrix**. 
 
